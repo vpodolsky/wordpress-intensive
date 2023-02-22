@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.promo {
+    height: 800px;
+    background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    width: 83px;
+    height: 71px;
+    left: 920px;
+    top: 40px;
+
+}
+.logo .logo_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
+    left: 860px;
+    top: 125px;
+    width: 201px;
+    height: 24px;
+    margin-top: 10px;
+}
+
+
+.title_one {
+    position: absolute;
+    left: 573px;
+    top: 197.5px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 41px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #F9BF3B;
+    text-align: center;
+
+}
+
+.title_big {
+        position: absolute;    
+        left: 687px;
+        top: 259px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 80px;
+        /* or 100% */
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+}
+.title_two {
+ /* Куда сложнее сделать это правильно! */
+    position: absolute;
+    left: 514px;
+    top: 338.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 41px;
+    /* identical to box height, or 100% */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #F9BF3B;
+    margin-top: 21px;
+}
+
+h3.title_three {
+    /* Ежедневно в России появляется более 5 000 новых сайтов. И тольк */
+    width: 1144px;
+    height: 77px;
+    position: absolute;
+    left: 389px;
+    top: 402px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-top: 23px;
+}
+.promo_btn {
+    position: absolute;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    left: 805px;
+    top: 551px;
+    margin-bottom: 72px;
+    /* Записаться на интенсив! */
+    position: absolute;
+    font-family: 'RobotoCondensed';
+    font-size: 21px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+}
+.more_title {
+    /* узнать больше об интенсиве */
+    position: absolute;
+    width: 264px;
+    height: 24px;
+    left: 829px;
+    top: 693.5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
